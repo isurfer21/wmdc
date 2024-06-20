@@ -1,0 +1,39 @@
+{
+  "name": "wmdc",
+  "version": "1.0.0",
+  "description": "A wasm based markdown compiler to convert markdown text into html",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js -h",
+    "test": "node index.js test/sample.md"
+  },
+  "author": "Abhishek Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "markdown-wasm": "^1.2.0"
+  },
+  "bin": {
+    "wmdc": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isurfer21/wmdc.git"
+  },
+  "author": "Abhishek Kumar <akbittu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isurfer21/wmdc/issues"
+  },
+  "homepage": "https://github.com/isurfer21/wmdc#readme",
+  "keywords": [
+    "wmdc",
+    "cli",
+    "markdown",
+    "html",
+    "md",
+    "wasm",
+    "format",
+    "command-line"
+  ]
+}
